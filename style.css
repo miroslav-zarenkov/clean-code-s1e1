@@ -6,30 +6,30 @@
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.banner {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.main-image {
+.banner__image {
   width: 100%;
 }
 
-.aaa .more_inf {
+.banner .banner__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .aaa {
+  .banner {
     text-align: center;
   }
 
 }
 
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -41,7 +41,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-row {
   display: flex;
   margin-top: 20px;
 }
@@ -61,7 +61,7 @@ button{
   outline: none;
 }
 
-.button {
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -71,13 +71,13 @@ button{
   cursor: pointer;
 }
 
-.button:hover {
+.btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
 
-.section-heading{
+.section-heading {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -106,18 +106,13 @@ button{
 
 /* New Task */
 
-#new-task-label {
-  display: block;
-  margin: 0 0 20px;
-}
-
-#new-task {
+.add-task {
   width: 318px;
 }
 
 /* Task list */
 
-.list-element {
+.task-element {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -126,53 +121,49 @@ button{
   align-items: center;
 }
 
-.list-element > * {
-  vertical-align: middle;
-}
-
-.list-checkbox {
+.task-element__check {
   margin: 0 10px;
 }
 
-.list-label {
+.task-element__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-input-text {
+.task-element__input-text {
   width: 226px;
 }
 
-.remove {
+.delete__img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.remove:hover {
+.delete__img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
 
-.completed-task-label {
+.completed__tasks .task-element .task-element__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.list-input-text {
+.task-element__input-text {
   display: none;
 }
 
-.editMode .list-input-text {
+.edit-mode .task-element__input-text {
   display: inline-block;
   width: 224px;
 }
 
-.editMode .list-label {
+.edit-mode .task-element__label {
   display: none;
 }
