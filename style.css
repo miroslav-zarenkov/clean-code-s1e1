@@ -43,6 +43,7 @@
 
 .task-row-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 ul {
