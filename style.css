@@ -104,7 +104,7 @@ button {
 
 /* New Task */
 
-.add-task {
+.task-row__add-task {
   width: 318px;
 }
 
@@ -134,13 +134,13 @@ button {
   width: 226px;
 }
 
-.delete__img {
+.btn__delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete__img:hover {
+.btn__delete:hover {
   transform: rotateZ(0);
 }
 
