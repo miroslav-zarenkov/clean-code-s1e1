@@ -3,7 +3,7 @@
 .body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .banner {
@@ -18,15 +18,13 @@
 }
 
 .banner .banner__link {
-  font-family: fantasy, cursive;
+  font-family: "fantasy", cursive;
 }
 
-@media (max-width:768px) {
-
+@media (max-width: 768px) {
   .banner {
     text-align: center;
   }
-
 }
 
 .main {
@@ -57,7 +55,7 @@ h3 {
 }
 
 input,
-button{
+button {
   outline: none;
 }
 
@@ -67,7 +65,7 @@ button{
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
@@ -96,7 +94,7 @@ button{
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 
